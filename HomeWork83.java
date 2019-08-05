@@ -199,14 +199,14 @@ public class HomeWork83{
 	
 	//work12
 	public static void work12(){
-		float sum=100,gongJiaGe=5f,muJiaGe=3f,xiaoJiaGe=1/3f;
-        int gongGeShu=0,muGeShu=0,xiaoGeShu=0;
-        for(gongGeShu=0;gongGeShu*5<100;gongGeShu++){
-            for(muGeShu=0;muGeShu*3<100;muGeShu++){
-                for(xiaoGeShu=0;xiaoGeShu<100;xiaoGeShu++){
-                    int sum2=gongGeShu*15+muGeShu*9+xiaoGeShu;
-                    if(sum2==300&&gongGeShu+muGeShu+xiaoGeShu==100){
-                        System.out.println("¹«¼¦"+gongGeShu+"Ä¸¼¦"+muGeShu+"Ð¡¼¦"+xiaoGeShu);
+		float sum=100,cockPrice=5f,henPrice=3f,chickPrice=1/3f;
+        int cockNum=0,henNum=0,chickNum=0;
+        for(cockNum=0;cockNum*5<100;cockNum++){
+            for(henNum=0;henNum*3<100;henNum++){
+                for(chickNum=0;chickNum<100;chickNum++){
+                    int sum2=cockNum*15+henNum*9+chickNum;
+                    if(sum2==300&&cockNum+henNum+chickNum==100){
+                        System.out.println("¹«¼¦"+cockNum+"Ä¸¼¦"+henNum+"Ð¡¼¦"+chickNum);
                     }
                 }
                  
