@@ -18,7 +18,9 @@ public class HomeWork83{
 		//work12();
 		//work13();
 		
-		work16();
+		//work16();
+		//worka1();
+		//worka2();
 	}
 	
 	
@@ -101,8 +103,7 @@ public class HomeWork83{
 		}
 		
 	}
-	
-	
+		
 	//work6
 	public static void work6(){
 		byte[] arrayA = {1,7,9,11,13,15,17,19};
@@ -134,25 +135,19 @@ public class HomeWork83{
 	
 	//work8
 	public static void work8(){
-		 for (int i = 1; i <= 1000; i++)
-        {
+		for(int i = 1; i <= 1000; i++){
             int sum=0;
-            for (int j = 1; j < i; j++)
-            {
-            if(i%j==0)
-            {
-                sum+=j;
-            }
+            for (int j = 1; j < i; j++){
+				if(i%j==0){
+					sum+=j;
+				}
                 
             }
-            if(i==sum)
-            {
-                System.out.println(i);
-            }
+			if(i==sum){
+				System.out.println(i);
+			}
         }
 	}
-	
-	
 	
 	//work9
 	public static void work9(){
@@ -166,8 +161,7 @@ public class HomeWork83{
 		System.out.println(height);
 		System.out.println(sum);
 	}
-	
-	
+		
 	//work10
 	public static void work10(){
 		int i = 1;
@@ -182,8 +176,7 @@ public class HomeWork83{
 		}
 		System.out.println(sum);
 	}
-	
-	
+		
 	//work11 
 	public static void work11(){
 		int n = 10;
@@ -260,8 +253,54 @@ public class HomeWork83{
 		int result = a + aa*10 + aaa*100 + aaaa*1000;
 		System.out.println("加密后的数为" + result);
 
+	}
+	
+	
+	//work a-1
+	public static void worka1(){
+		char[ ] chs ={'统','计','一','个','字','符','在','字','符','串','中'};
+		for (int i = 0; i < chs.length; i++) {
+			if (chs[i] == '字') {
+				System.out.println("字符在字符数组中的位置是： "+i);
+			}
+		}
 
 	}
+	
+	public static void worka2(){
+		String str = "统计一个字符在字符串中的所有位置";
+		String s = "字";
+		int length=str.length();
+        int count = 0;
+        for(int i= 0; i<=length; i++){
+            if(str.indexOf(s) == i){
+                str = str.substring(i+1,str.length());        
+                count++;
+            }
+        }
+        System.out.println(s+"出现的次数为"+count+"次");
+	}
+	
+	public static void worka3(){
+		String str = "123456789012";
+		int old = 0;
+		int even = 0;
+		for(int i = 0;i<str.length();i++){
+			if(i%2 == 0){
+				old +=str.charAt(i)-'0';
+			}else{
+				even +=str.charAt(i)-'0';
+			}
+		}
+		System.out.println(old);
+		System.out.println(even);
+		
+		int cc = 0;
+		cc = old + even * 3;
+		System.out.println(cc);
+		
+	}
+	
 	
 }
 
