@@ -10,17 +10,17 @@ public class QuestionDB3{
 		work1();
 	}
 	
-	//Á·Ï°Ò»
+	//ç»ƒä¹ ä¸€
 	public static void practice1(){
 		Scanner sca = new Scanner(System.in);
 		int x = sca.nextInt();
 		if(x%2==0){
-			System.out.println("ÊäÈëµÄÖµÊÇÅ¼Êı");
+			System.out.println("è¾“å…¥çš„å€¼æ˜¯å¶æ•°");
 		}
 		System.out.println(x);
 	}
 	
-	//Á·Ï°¶ş
+	//ç»ƒä¹ äºŒ
 	public static void practice2(){
 		Random random = new Random();
 		int x = random.nextInt(60);
@@ -30,11 +30,11 @@ public class QuestionDB3{
 		}else if(x<y){
 			System.out.println(y);
 		}else{
-			System.out.println("ÕâÁ½ÊıµÈÁË");
+			System.out.println("è¿™ä¸¤æ•°ç­‰äº†");
 		}
 	}
 	
-	//Á·Ï°Èı
+	//ç»ƒä¹ ä¸‰
 	public static void practice3(){
 		int i = 1;
 		int sum = 0;
@@ -62,7 +62,7 @@ public class QuestionDB3{
 		System.out.println(sum);
 	}
 	
-	//Á·Ï°ËÄ
+	//ç»ƒä¹ å››
 	public static void practice4(){
 		int i = 1;
 		int sum = 0;
@@ -72,7 +72,7 @@ public class QuestionDB3{
 		System.out.println(sum);
 	}
 	
-	//¿Îºó×÷Òµ
+	//è¯¾åä½œä¸š
 	//work1
 	public static void work1(){
 		Scanner sca = new Scanner(System.in);

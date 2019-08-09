@@ -9,7 +9,7 @@ public class QuestionDB{
 		afterClassWork2();
 	}
 	
-	//Á·Ï°ËÄ
+	//ç»ƒä¹ å››
 	public static void practiceFour(){
 		int x = 2;
 		int y = 1;
@@ -18,7 +18,7 @@ public class QuestionDB{
 		System.out.println("y="+y);    //y=1
 	}
 	
-	//Á·Ï°Îå
+	//ç»ƒä¹ äº”
 	public static void parcticeFive(){
 		int x = 1;
 		int y = 2;
@@ -26,12 +26,12 @@ public class QuestionDB{
 		System.out.println(y += z--/++x);  //3
 	}
 	
-	//¿Îºó×÷Òµ1
+	//è¯¾åä½œä¸š1
 	public static void afterClassWork1(){
 		Scanner sca = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëaµÄÖµ");
+		System.out.println("è¯·è¾“å…¥açš„å€¼");
 		int a = sca.nextInt();
-		System.out.println("ÇëÊäÈëbµÄÖµ");
+		System.out.println("è¯·è¾“å…¥bçš„å€¼");
 		int b = sca.nextInt();
 		int c = 0;
 		
@@ -42,7 +42,7 @@ public class QuestionDB{
 		System.out.println(b);
 	}
 	
-	//¿Îºó×÷Òµ2
+	//è¯¾åä½œä¸š2
 	public static void afterClassWork2(){
 		Scanner sca = new Scanner(System.in);
 		int i = sca.nextInt();

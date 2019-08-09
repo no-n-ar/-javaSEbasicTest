@@ -40,11 +40,11 @@ public class switchCase{
 		int score = 95;
 		String level = null;
 		switch(score/10){
-		    case 10:level = "ÓÅĞã";
+		    case 10:level = "ä¼˜ç§€";
 			break;
-		    case 9:level = "Á¼ºÃ";
+		    case 9:level = "è‰¯å¥½";
 			break;
-			default:level = "²»¼°¸ñ";
+			default:level = "ä¸åŠæ ¼";
 		}
 		System.out.println(level);
 	}

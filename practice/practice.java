@@ -7,18 +7,18 @@ public class practice{
 		System.out.print(b);
 		
 		
-		char a = 'ÖĞ';
+		char a = 'ä¸­';
 		int b = a;
 		System.out.print(b);
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëxµÄÖµ:");
+		System.out.print("è¯·è¾“å…¥xçš„å€¼:");
 		double x = scanner.nextDouble();
 		double y = x*x-2*x-4;
-		System.out.print("yµÄÖµÎª:"+y);
+		System.out.print("yçš„å€¼ä¸º:"+y);
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëxµÄÖµ:");
+		System.out.print("è¯·è¾“å…¥xçš„å€¼:");
 		double x = scanner.nextDouble();
 		double y = x%3;
 		double z = x++;
@@ -26,30 +26,30 @@ public class practice{
 		System.out.print(z);
 		
 		int age = 68;
-		char sex = 'ÄĞ';
-		int a = age<25||sex=='Å®'?100:90;
+		char sex = 'ç”·';
+		int a = age<25||sex=='å¥³'?100:90;
 		System.out.println(a);
 		
 		
-		//·ÖÒ³ÒµÎñ
+		//åˆ†é¡µä¸šåŠ¡
 		Scanner sca = new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÊı¾İ:");
+		System.out.print("è¯·è¾“å…¥æ•°æ®:");
 		int total = sca.nextInt();
 		int size = 10;
 		int page = total%size==0 ? total/size : total/size+1;
 		System.out.println(page);
 		
 		Scanner result = new Scanner(System.in);
-		System.out.print("ÇëÊäÈë³É¼¨:");
+		System.out.print("è¯·è¾“å…¥æˆç»©:");
 		int score = result.nextInt();
 		if(score>100||score<0){
 			System.out.println("supper man");
 		}else if(score >=90&&score<=100){
-			System.out.println("ÓÅĞã");
+			System.out.println("ä¼˜ç§€");
 		}else if(score >=80&&score<90){
-			System.out.println("Á¼ºÃ");
+			System.out.println("è‰¯å¥½");
 		}else{
-			System.out.println("²»¼°¸ñ");
+			System.out.println("ä¸åŠæ ¼");
 		}
 
 		

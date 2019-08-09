@@ -10,7 +10,7 @@ public class Work{
 		
 		
 		//Scanner scanner = new Scanner(System.in);
-		//System.out.println("ÇëÊäÈëÒ»¸öÊı×Ö:");
+		//System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—:");
 		//int num2 = scanner.nextInt();
 		
 		//long num3 = num2*num2;

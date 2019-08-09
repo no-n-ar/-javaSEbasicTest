@@ -1,4 +1,4 @@
-import java.util.*;
+ï»¿import java.util.*;
 
 
 public class HomeWork83{
@@ -206,7 +206,7 @@ public class HomeWork83{
                 for(chickNum=0;chickNum<100;chickNum++){
                     int sum2=cockNum*15+henNum*9+chickNum;
                     if(sum2==300&&cockNum+henNum+chickNum==100){
-                        System.out.println("¹«¼¦"+cockNum+"Ä¸¼¦"+henNum+"Ð¡¼¦"+chickNum);
+                        System.out.println("å…¬é¸¡"+cockNum+"æ¯é¸¡"+henNum+"å°é¸¡"+chickNum);
                     }
                 }
                  
@@ -225,7 +225,7 @@ public class HomeWork83{
 		for(i= 1;i<=10;i++){
 			num = num + num/2;
 			
-			System.out.println(3*time + "¸öÔÂºóÓÐÍÃ×Ó" + num +"Ö»");
+			System.out.println(3*time + "ä¸ªæœˆåŽæœ‰å…”å­" + num +"åª");
 			time++;
 		}
 	}
@@ -235,7 +235,7 @@ public class HomeWork83{
 
 	//work16
 	public static void work16(){
-		System.out.println("ÇëÊäÈëÒ»¸öËÄÎ»Êý");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªå››ä½æ•°");
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
 		
@@ -244,32 +244,32 @@ public class HomeWork83{
 		aa = number / 10 % 10;
 		aaa = number / 100 % 10;
 		aaaa = number / 1000;
-		// ´úÌæÊý×Ö
+		// ä»£æ›¿æ•°å­—
 		a = (a + 5) % 10;
 		aa = (aa + 5) % 10;
 		aaa = (aaa + 5) % 10;
 		aaaa = (aaaa + 5) % 10;
 		
 		int result = a + aa*10 + aaa*100 + aaaa*1000;
-		System.out.println("¼ÓÃÜºóµÄÊýÎª" + result);
+		System.out.println("åŠ å¯†åŽçš„æ•°ä¸º" + result);
 
 	}
 	
 	
 	//work a-1
 	public static void worka1(){
-		char[ ] chs ={'Í³','¼Æ','Ò»','¸ö','×Ö','·û','ÔÚ','×Ö','·û','´®','ÖÐ'};
+		char[ ] chs ={'ç»Ÿ','è®¡','ä¸€','ä¸ª','å­—','ç¬¦','åœ¨','å­—','ç¬¦','ä¸²','ä¸­'};
 		for (int i = 0; i < chs.length; i++) {
-			if (chs[i] == '×Ö') {
-				System.out.println("×Ö·ûÔÚ×Ö·ûÊý×éÖÐµÄÎ»ÖÃÊÇ£º "+i);
+			if (chs[i] == 'å­—') {
+				System.out.println("å­—ç¬¦åœ¨å­—ç¬¦æ•°ç»„ä¸­çš„ä½ç½®æ˜¯ï¼š "+i);
 			}
 		}
 
 	}
 	
 	public static void worka2(){
-		String str = "Í³¼ÆÒ»¸ö×Ö·ûÔÚ×Ö·û´®ÖÐµÄËùÓÐÎ»ÖÃ";
-		String s = "×Ö";
+		String str = "ç»Ÿè®¡ä¸€ä¸ªå­—ç¬¦åœ¨å­—ç¬¦ä¸²ä¸­çš„æ‰€æœ‰ä½ç½®";
+		String s = "å­—";
 		int length=str.length();
         int count = 0;
         for(int i= 0; i<=length; i++){
@@ -278,7 +278,7 @@ public class HomeWork83{
                 count++;
             }
         }
-        System.out.println(s+"³öÏÖµÄ´ÎÊýÎª"+count+"´Î");
+        System.out.println(s+"å‡ºçŽ°çš„æ¬¡æ•°ä¸º"+count+"æ¬¡");
 	}
 	
 	public static void worka3(){
